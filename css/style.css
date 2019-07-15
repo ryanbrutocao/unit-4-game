@@ -1,0 +1,95 @@
+body {
+background-color: lightblue;
+padding: 2%;
+
+}
+.topBox {
+  background: orangered;
+  width: 20%;
+  padding: 3% 0%;
+  color: white;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.directionsBox {
+  background-color: tan;
+  width: 50%;
+  color: green;
+  padding: 10px 10px 70px;
+  margin-bottom: 1%;
+
+}
+.scoreWinsLoss {
+  flex-direction: row;
+  width:250px;
+  height: 70px; 
+  float:left;
+  margin-bottom: 1%;
+  
+}
+
+.targetScoreBox {
+  float: left;
+  background-color: hsl(120, 26%, 46%);
+  margin-bottom: 1%;
+  width: 68%;
+  height: 70px;
+
+
+}
+#target-number {
+  font-size: 160%;
+  color: purple;
+}
+.winLossBox {
+  float: right;
+  background-color: #78eeee;
+  margin-bottom: 1%;
+  width: 30%;
+  height: 70px;
+
+
+}
+
+.allCrystals {
+clear: both;
+/* border: 2px black solid; */
+}
+.score-text {
+  width:200px;
+  background-color: #217454;
+  color: white;
+  padding: 3px;
+  height: auto;
+  margin-bottom: 1%;
+}
+#userScore {
+  height: 70px;
+  width:200px;
+  background-color: #217454;
+  color: white;
+  padding: 3px;
+  font-size:160%;
+  margin-bottom: 1%;
+}
+
+
+/* --------------------------------- */
+
+@media only screen and (max-width:980px) {
+
+
+ 
+ }
+ 
+ @media only screen and (max-width:768px) {
+
+
+ }
+ 
+ @media only screen and (max-width:640px) {
+ 
+
+
+ }
